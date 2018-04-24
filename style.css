@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#yy-Carousel-container {
+  background-color: antiquewhite;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#yy-Carousel {
+  transition-duration: 500ms;
+  height: 100%;
+  width: 700%;
+  background-color: rgba(212, 247, 188, 0.5);
+}
+.yy-Carousel-Item {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  height: 100%;
+  background-color: rgba(241, 122, 222, 0.5);
+}
+.color1 {
+  background-color: pink;
+}
+.color2 {
+  background-color: #ebc0ff;
+}
+.color3 {
+  background-color: #e76c81;
+}
+.color4 {
+  background-color: #61b9db;
+}
+.color5 {
+  background-color: #42c5e6;
+}
+.color6 {
+  background-color: #79d146;
+}
+.color7 {
+  background-color: #dbbf3f;
+}
+.yy-Carousel-control {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+.yy-Carousel-control-prev {
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yy-Carousel-control-next {
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yy-Carousel-control-icon {
+  color: #000000;
+}
